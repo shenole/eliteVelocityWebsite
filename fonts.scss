@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300');
+
+// font variables
+$mainFont: 'Cormorant Garamond', serif;
+
+//fonts
+h1 {
+  margin: 0;
+  font-family: $mainFont;
+  font-size: 2.2rem;
+  color: $mist;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.25rem;
+  word-spacing: 1.4rem;
+  text-shadow: 2px 4px 12px rgba(0, 0, 0, .9);
+}
