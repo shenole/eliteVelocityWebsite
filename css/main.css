@@ -171,6 +171,10 @@ li:hover {
   background-color: rgba(255, 128, 0, 0.7);
 }
 
+#home {
+  overflow: hidden;
+}
+
 .homepg {
   background: url(../images/01.jpg) no-repeat center;
   background-size: cover;
