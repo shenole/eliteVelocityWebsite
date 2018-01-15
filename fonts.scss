@@ -5,7 +5,6 @@ $mainFont: 'Cormorant Garamond', serif;
 
 //fonts
 h1 {
-  margin: 0;
   font-family: $mainFont;
   font-size: 2.2rem;
   color: $mist;
@@ -14,4 +13,21 @@ h1 {
   letter-spacing: 1.25rem;
   word-spacing: 1.4rem;
   text-shadow: 2px 4px 12px rgba(0, 0, 0, .9);
+}
+
+h2 {
+  font-family: $mainFont;
+  font-size: 2.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $slate;
+  margin-bottom: 38px;
+}
+
+p {
+  font-family: $mainFont;
+  font-size: 1.8rem;
+  color: $slate;
+  margin-bottom: 20px;
+  line-height: 2.25rem;
 }

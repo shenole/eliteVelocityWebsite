@@ -50,7 +50,6 @@ table {
 }
 
 h1 {
-  margin: 0;
   font-family: "Cormorant Garamond", serif;
   font-size: 2.2rem;
   color: #f5f5f5;
@@ -59,6 +58,59 @@ h1 {
   letter-spacing: 1.25rem;
   word-spacing: 1.4rem;
   text-shadow: 2px 4px 12px rgba(0, 0, 0, 0.9);
+}
+
+h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #222222;
+  margin-bottom: 38px;
+}
+
+p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.8rem;
+  color: #222222;
+  margin-bottom: 20px;
+  line-height: 2.25rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.container-half {
+  width: 50%;
+  height: 100%;
+  flex-flow: column;
+}
+
+#slider-one {
+  height: 60%;
+  background-color: red;
+  flex: 1 0 580px;
+  order: 1;
+  transition: background 1.4s ease;
+}
+
+#bottom-left {
+  height: 40%;
+  background-color: #f5f5f5;
+  padding: 15px 20px 0px 20px;
+  box-sizing: border-box;
+  flex: 1 0 580px;
+}
+
+#about-right {
+  height: 100%;
+  background: url(../images/02.jpg) no-repeat center;
+  background-size: cover;
+  flex: 1 0 580px;
+  order: 2;
 }
 
 html, body {

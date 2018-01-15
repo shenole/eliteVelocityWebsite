@@ -1,0 +1,35 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.container-half {
+  width: 50%;
+  height: 100%;
+  flex-flow: column;
+}
+
+#slider-one {
+  height: 60%;
+  background-color: red;
+  flex: 1 0 580px;
+  order: 1;
+  transition: background 1.4s ease;
+}
+
+#bottom-left {
+  height: 40%;
+  background-color: $mist;
+  padding: 15px 20px 0px 20px;
+  box-sizing: border-box;
+  flex: 1 0 580px;
+}
+
+#about-right {
+  height: 100%;
+  background: url(../images/02.jpg) no-repeat center;
+  background-size: cover;
+  flex: 1 0 580px;
+  order: 2;
+}
