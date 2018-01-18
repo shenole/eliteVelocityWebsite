@@ -1,0 +1,27 @@
+.contactbg {
+  display: flex;
+}
+
+#contact-info {
+  padding: 15px;
+  box-sizing: border-box;
+  height: 100%;
+  flex: 1 0 40%;
+}
+
+#contact-pic {
+  height: 100%;
+  background: url(../images/08.jpg)no-repeat center;
+  background-size: cover;
+  flex: 1 0 60%;
+}
+
+.overlay#contact {
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: $overlay;
+  z-index: 1;
+}
