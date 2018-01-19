@@ -265,6 +265,30 @@ body#about {
   z-index: 2;
 }
 
+@media screen and (max-width: 1780px) {
+  #jumbotron-div {
+    width: 24%;
+    height: 21%;
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  #jumbotron-div {
+    width: 26%;
+    height: 21%;
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+  #jumbotron-div {
+    width: 60%;
+    height: 21%;
+    top: 30%;
+  }
+}
+
 h2.elite-heading-two {
   color: #f5f5f5;
 }
