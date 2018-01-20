@@ -42,3 +42,87 @@
   background-color: $overlay;
   z-index: 1;
 }
+
+////////// MEDIA QUERIES //////////
+////////// Landscape View //////////
+@media screen and(max-width: 1480px) {
+  #contact-text {
+    height: 340px;
+  }
+}
+
+@media screen and(max-width: 1024px) {
+  #contact-text {
+    height: 280px;
+  }
+}
+
+@media screen and(max-width: 750px) {
+  #contact-text {
+    height: 240px;
+  }
+}
+
+////////// Portrait View //////////
+@media screen and(max-width: 1024px)
+and(orientation: portrait) {
+  #contact-text {
+    height: 586px;
+  }
+}
+
+@media screen and(max-width: 780px)
+and(orientation: portrait) {
+  #contact-text {
+    height: 390px;
+  }
+}
+
+@media screen and(max-width: 450px)
+and(orientation: portrait) {
+  .contactbg {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row-reverse;
+  }
+
+  #contact-text {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+  }
+
+  #contact-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+  }
+
+  #contact-info {
+    width: 0;
+    padding: 0;
+    height: 0%;
+    flex-basis: 0%;
+  }
+
+  .overlay#contact {
+    width: 100%;
+  }
+}
+
+@media screen and(max-width: 380px)
+and(orientation: portrait) {
+  p {
+    font-size: 1.1rem;
+  }
+
+  #contact-text {
+    height: 40%;
+  }
+
+  #contact-pic {
+    height: 60%;
+  }
+}
